@@ -20,7 +20,7 @@ class BearerTokenMiddleware
 
         if ($this->isBlocked($ipAddress)) {
             $this->logToDatabase($ipAddress, 'Çok fazla istek gönderildi. 10 dakika süreyle bloklandı.');
-            return response()->json(['error' => 'Çok fazla istek.'], 429); // IP adresi engellendiğinde hata mesajı döner.
+            return response()->json(['error' => 'Çok fazla istek gönderildi. 10 dakika sonra tekrar deneyiniz.'], 429); // IP adresinin engellendiği durum
         }
 
         if ($token === $this->validToken) {
