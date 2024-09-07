@@ -45,18 +45,23 @@ Projeyi yerel bilgisayarınıza kurmak için aşağıdaki adımları izleyin:
    cp .env.example .env
    ```
 5. Çevresel Değişkenleri Düzenleyin (.env dosyasını açın ve veritabanı ayarlarınızı ve diğer gerekli ayarları yapılandırın.)
-
+   
 6. Veritabanı şemalarını oluşturun
 
    ```bash
    php artisan migrate
     ```
-7. Uygulama Anahtarını Oluşturun
+7. Otomatik verileri veritabanında oluşturun
+
+   ```bash
+   php artisan db:seed
+    ```
+8. Uygulama Anahtarını Oluşturun
 
    ```bash
    php artisan key:generate
     ```
-8. Geliştirme Sunucusunu Başlatın
+9. Geliştirme Sunucusunu Başlatın
 
    ```bash
    php artisan serve
