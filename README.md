@@ -61,6 +61,11 @@ Projeyi yerel bilgisayarınıza kurmak için aşağıdaki adımları izleyin:
    ```bash
    php artisan key:generate
     ```
+9. Storage link oluşturun
+
+   ```bash
+   php artisan storage:link
+    ```
 9. Geliştirme Sunucusunu Başlatın
 
    ```bash
