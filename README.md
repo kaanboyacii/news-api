@@ -27,7 +27,7 @@ Projeyi yerel bilgisayarınıza kurmak için aşağıdaki adımları izleyin:
 1. **Projeyi Klonlayın**
 
    ```bash
-   git clone https://github.com/kaanboyacii/news_api.git
+   git clone https://github.com/kaanboyacii/news-api.git
     ```
 2. Proje Dizini İçine Girin
 
