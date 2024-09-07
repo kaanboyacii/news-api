@@ -46,9 +46,6 @@ Projeyi yerel bilgisayarınıza kurmak için aşağıdaki adımları izleyin:
    ```
 5. Çevresel Değişkenleri Düzenleyin (.env dosyasını açın ve veritabanı ayarlarınızı ve diğer gerekli ayarları yapılandırın.)
 
-   ```bash
-   composer install
-    ```
 6. Veritabanı şemalarını oluşturun
 
    ```bash
